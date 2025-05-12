@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+       
+        <label for="username">Firstname:</label>
+        <input type="text" id="firstname" name="firstname" required>
+        <br><br>
+    
+        <label for="Middlename:">Middlename:</label>
+        <input type="text" id="Middlename" name="middlename" required>
+        <br><br>    
+
+        <label for="Lastname:">Lastname:</label>
+        <input type="text" id="Lastname" name="lastname" required>
+        <br><br>   
+
+        <label for="Course">Course:</label>
+        <select name="course" id="course">
+          <option value="DSA">dsa</option>
+          <option value="OOP">oop</option>
+          <option value="ITP">itp</option>
+          <option value="CNN">Cnn</option>
+        </select>
+        <br><br>
+   
+
+
+
+
+        
+        <input type="radio" id="Coursename" name="coursename" required>
+        <br><br>  
+        
+        <label for="Gender:">Gender:</label>
+        <br>
+        <input name="gender" type="radio">male
+        <br>
+        <input name="gender" type="radio">female
+        <br>
+        <input name="gender" type="radio">others
+
+        <br><br>
+        <label for="Phone:">Phone:</label>
+        <input id="phone" type="tel" name="phone" />
+        <br />
+        <br />
+
+        <label for="freeform">Address</label>
+        <br>
+        
+        <textarea id="freeform" name="freeform" rows="4" cols="50">
+        </textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+
+
+
+</body>
+</html>
